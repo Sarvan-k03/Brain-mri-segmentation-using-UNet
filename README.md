@@ -1,6 +1,6 @@
 # 🧠 Tumor Segmentation using UNet with Heatmap Guidance
 
-> **Lab 07** · Brain MRI Tumor Segmentation · 25 March 2026  
+> Brain MRI Tumor Segmentation · 25 March 2026  
 > Dataset: [LGG MRI Segmentation — Kaggle](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
 
 ---
@@ -215,10 +215,8 @@ Each sample shows: Input MRI · VAE ROI Heatmap · Ground Truth Mask · Predicte
 
 | Metric | Baseline | Heatmap-Guided | Δ |
 |---|---|---|---|
-| Dice (mean) | ___ | ___ | ___ |
-| IoU (mean) | ___ | ___ | ___ |
-
-*Fill in after running the notebook.*
+| Dice (mean) | 0.7546 | 0.7098 | ↓0.0448 |
+| IoU (mean) | 0.6687 | 0.6231 |↓0.0456|
 
 ---
 
